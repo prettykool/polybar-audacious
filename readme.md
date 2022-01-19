@@ -5,7 +5,7 @@ This is a simple, stupid module for showing the current song playing in Audaciou
 mainly for Polybar; But it should work on the majority of Bars (that allow for user-built scripting.)
 
 ## Usage (Polybar)
-```toml
+```ini
 [module/audacious]
 type = custom/script
 exec = /path/to/file/polybar-audacious.sh
